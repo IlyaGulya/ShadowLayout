@@ -25,9 +25,10 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.Rect;
-import androidx.annotation.FloatRange;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
+
+import androidx.annotation.FloatRange;
 
 /**
  * Created by GIGAMOLE on 13.04.2016.
