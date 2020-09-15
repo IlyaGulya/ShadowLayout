@@ -19,7 +19,7 @@ apply plugin: "com.jfrog.bintray"
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'maven'
 
-version = "2.0.0"
+version = "2.0.1"
 
 android {
     compileSdkVersion 28
@@ -28,7 +28,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
-        versionName "2.0.0"
+        versionName "2.0.1"
     }
     buildTypes {
         release {
@@ -43,9 +43,9 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
 }
 
-def siteUrl = 'https://github.com/DevLight-Mobile-Agency/ShadowLayout'
-def gitUrl = 'https://github.com/DevLight-Mobile-Agency/ShadowLayout.git'
-group = "com.github.devlight.shadowlayout"
+def siteUrl = 'https://github.com/IlyaGulya/ShadowLayout'
+def gitUrl = 'https://github.com/IlyaGulya/ShadowLayout.git'
+group = "com.github.ilyagulya.shadowlayout"
 
 install {
     repositories.mavenInstaller {
@@ -67,6 +67,11 @@ install {
                     }
                 }
                 developers {
+                    developer {
+                        id 'ilyagulya'
+                        name 'Ilya Gulya'
+                        email 'ilyagulya@gmail.com'
+                    }
                     developer {
                         id 'gigamole'
                         name 'Basil Miller'
